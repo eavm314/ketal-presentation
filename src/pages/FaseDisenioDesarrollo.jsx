@@ -351,22 +351,26 @@ function FaseDisenioDesarrollo() {
       >
         DIAGRAMAS DE C4
       </h2>
-      <h3
-        className="text-xl font-bold text-left ml-80 pb-12"
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
       >
-        DIAGRAMA DE CONTEXTO
-      </h3>
-      <div className="flex justify-center">
-        <img src={img_contexto} alt="Gartner Cloud" className="w-1/2" />
-      </div>
-      <h3
-        className="text-xl font-bold text-left ml-80 pb-12"
-      >
-        DIAGRAMA DE CONTENEDORES
-      </h3>
-      <div className="flex justify-center">
-        <img src={img_contenedor} alt="Gartner Cloud" className="w-1/2" />
-      </div>
+        <button
+          className="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded-full mb-8 text-xl"
+        >
+          <a
+            href="https://app.diagrams.net/#G1UxTBa35xamL1WvXlcGFaR_RKoCWsProJ#%7B%22pageId%22%3A%22YGbsHR9majCSpaoM3D2D%22%7D"
+            target="_blank"
+            rel="noreferrer"
+            style={{ textDecoration: "none", color: "inherit" }}
+          >
+            Ver Diagramas C4
+          </a>
+        </button>
+      </div>  
       <h2 className="text-2xl font-bold text-center pb-8" >
         MOCKUPS
       </h2>
