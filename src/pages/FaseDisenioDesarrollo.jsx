@@ -1,5 +1,3 @@
-import img_contexto from "../assets/contexto.png";
-import img_contenedor from "../assets/contenedor.png";
 function FaseDisenioDesarrollo() {
   return (
     <div className="container mx-auto px-4">
