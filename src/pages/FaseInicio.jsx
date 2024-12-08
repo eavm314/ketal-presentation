@@ -33,6 +33,23 @@ function FaseInicio() {
 
       </ul>
 
+      <h2 className="text-2xl font-bold text-left text-primary uppercase mt-10" >Análisis SMART</h2>
+
+      <ul className="list-disc pl-6 text-xl font-light pb-4" >
+        <li><strong>S (Específico):</strong> Desarrollar un CRM con módulos específicos para
+          gestionar datos, fidelizar clientes y analizar patrones de compra. Responde a
+          necesidades como centralización de información y automatización de procesos.</li>
+        <li><strong>M (Medible):</strong> CRM funcional gestionando datos de clientes
+          recurrentes. Automatización de notificaciones personalizadas con alta tasa de apertura.
+          Reducción del tiempo en la generación de reportes.</li>
+        <li><strong>A (Alcanzable):</strong> Basado en infraestructura existente, soporte del
+          equipo y metodologías ágiles.</li>
+        <li><strong>R (Realista/Relevante):</strong> Mejora la personalización, optimiza
+          procesos y aumenta la fidelidad en un mercado competitivo.</li>
+        <li><strong>T (Temporal):</strong> Cada módulo tiene un plazo específico, asegurando entregables progresivos dentro del cronograma general.
+        </li>
+      </ul>
+
       <h2 className="text-2xl font-bold text-left text-primary uppercase my-4" >Módulos</h2>
 
       <ul className="list-disc pl-6 text-xl font-light my-2" >
