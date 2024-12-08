@@ -7,10 +7,6 @@ function FaseDisenioDesarrollo() {
         Fase de Diseño y Desarrollo
       </h1>
       <h2 className="text-2xl font-bold text-center pb-8 pt-14" >
-        SMART PART
-        {/* COASA DE PABLO */}
-      </h2>
-      <h2 className="text-2xl font-bold text-center pb-8 pt-14" >
         DIAGRAMA BPWIN
       </h2>
       <div
