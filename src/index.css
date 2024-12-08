@@ -1,3 +1,17 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse; /* Une los bordes para que no se dupliquen */
+    width: 100%; /* Opcional: ajusta el ancho */
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left; /* Alineación opcional */
+}
+th {
+    background-color: #d2d2d2; /* Fondo para encabezados */
+}
