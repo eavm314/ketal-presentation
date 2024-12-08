@@ -1,5 +1,3 @@
-import gartner_cloud from '../assets/gartner_cloud.png';
-
 function FaseControlCalidad() {
   return (
     <div className="container mx-auto px-10 py-8 rounded-3xl bg-slate-50" style={{ backgroundColor: 'rgba(217, 217, 217, 0.74)' }}>

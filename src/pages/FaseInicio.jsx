@@ -1,11 +1,39 @@
-import análisis_de_la_problemática_Ishikawa_KETAL from '../assets/Análisis de la problemática Ishikawa KETAL.png';
-function FaseInicio() {
+import pez_diagram from '../assets/pez_diagram.png';
 
+function FaseInicio() {
   return (
     <div className="container mx-auto px-10 py-8 rounded-3xl bg-slate-50" style={{ backgroundColor: 'rgba(217, 217, 217, 0.74)' }}>
-      <h1 className='text-2xl font-bold' >Fase de Inicio del Proyecto CRM para ketal</h1>
+      <h1 className='text-2xl font-bold' >Fase de Inicio del Proyecto</h1>
 
-      <h2 className="text-2xl font-bold text-left text-primary uppercase py-4" >Análisis de SMART</h2>
+      <p className="text-xl font-light text-left py-4 " >
+        <strong>Problema Identificado:</strong> Dificultades con la relación con los clientes, falta de tecnoligía Y falta de un sistema CRM.
+      </p>
+
+
+      <div className='flex justify-center'>
+        <img src={pez_diagram} alt="Ishikawa" className='w-1/2' />
+      </div>
+
+      <h2 className="text-2xl font-bold text-left text-primary uppercase py-4" >Ishikawa</h2>
+
+      <h3 className="text-xl font-semibold">Objetivo General:</h3>
+      <p className="text-xl font-light text-left my-2 " >
+        Desarrollar e implementar un sistema web CRM para mejorar la relación de KETAL con sus clientes.
+      </p>
+
+      <h3 className="text-xl font-semibold">Objetivos Específicos:</h3>
+      <ul className="list-disc pl-6 text-xl font-light my-2" >
+        <li>Identificar las necesidades específicas de KETAL para mejorar los datos de clientes y su comunicación.</li>
+        <li>Diseñar la estructura y modelos para el análisis del sistema CRM y la creación de sus módulos.</li>
+        <li>Desarrollar e implementar una interfaz en un entorno web para facilitar la administración de los diferentes módulos, que incluya funcionalidades para registro automático de compras y segmentación avanzada.</li>
+        <li>Realizar pruebas exhaustivas del sistema para tener seguridad en el manejo de datos sensibles.</li>
+        <li>Desplegar el sistema web CRM en la infraestructura tecnológica de KETAL para la integración con sistemas existentes.</li>
+        <li>Capacitar al personal de KETAL en el uso del sistema mediante recursos interactivos y manuales para que tengan un manejo correcto del sistema.</li>
+        <li>Establecer un plan de soporte técnico y mantenimiento para la correcta operatividad del sistema.</li>
+
+      </ul>
+
+      <h2 className="text-2xl font-bold text-left text-primary uppercase mt-10" >Análisis SMART</h2>
 
       <ul className="list-disc pl-6 text-xl font-light pb-4" >
         <li><strong>S (Específico):</strong> Desarrollar un CRM con módulos específicos para
@@ -18,52 +46,72 @@ function FaseInicio() {
           equipo y metodologías ágiles.</li>
         <li><strong>R (Realista/Relevante):</strong> Mejora la personalización, optimiza
           procesos y aumenta la fidelidad en un mercado competitivo.</li>
-        <li><strong>T (Temporal):</strong> Cronograma:
-          <ul className="list-disc pl-6 text-xl font-light pb-4" >
-            <li>
-              Mes 1: Requerimientos y diseño.
-            </li>
-            <li>
-              Mes 2-3: Desarrollo e integración.
-            </li>
-            <li>
-              Mes 4: Pruebas y capacitación.
-            </li>
-            <li>
-              Mes 5: Implementación final.
-            </li>
-          </ul>
+        <li><strong>T (Temporal):</strong> Cada módulo tiene un plazo específico, asegurando entregables progresivos dentro del cronograma general.
         </li>
       </ul>
 
-      <p className="text-xl font-light text-left py-4 " >
-        <strong>Problema Identificado:</strong> ketal enfrentaba desafíos clave como la falta de la  centralice la gestión de datos de clientes, personalice comunicaciones, automatice campañas de marketing y optimice operaciones mediante reportes.
-      </p>
+      <h2 className="text-2xl font-bold text-left text-primary uppercase my-4" >Módulos</h2>
 
-      <h2 className="text-2xl font-bold text-left text-primary uppercase py-4" >Ishikawa</h2>
-      <div className='flex justify-center'>
-        <img src={análisis_de_la_problemática_Ishikawa_KETAL} alt="Gartner Cloud" className='w-1/2' />
-      </div>
-
-      <p className="text-xl font-light text-left py-4 " >
-        <strong>Objetivo General:</strong> Desarrollar un sistema CRM completo para mejorar la fidelización de clientes y fortalecer la comunicación integral con ellos a través de soluciones tecnológicas avanzadas.
-      </p>
-
-      <h2 className="text-2xl font-bold text-left text-primary uppercase py-4" >Limites y Alcance</h2>
-
-      <h2 className='text-xl font-bold' >Estrategia de Implementación</h2>
-      <ul className="list-disc pl-6 text-xl font-light pb-4" >
-        <li><strong>Desarrollo de la Página Web y CRM:</strong> Incluye diseño, desarrollo, pruebas, y mantenimiento, para la comunicación con los usuarios.</li>
-        <li><strong>Soporte y Mantenimiento:</strong> Corrección de errores, actualizaciones basadas en análisis de datos y tendencias tecnológicas, y asistencia técnica continua.</li>
-        <li><strong>Capacitación y Transferencia de Conocimientos:</strong> Sesiones de capacitación para el personal de ketal y desarrollo de manuales detallados.</li>
-        <li><strong>Integración y Seguridad:</strong> La implementación de robustas medidas de seguridad.</li>
+      <ul className="list-disc pl-6 text-xl font-light my-2" >
+        <li><strong>MÓDULO I:</strong> Módulo de centralización de datos de Ketal.</li>
+        <li><strong>MÓDULO II:</strong> Módulo de comunicación personalizada.</li>
+        <li><strong>MÓDULO III:</strong> Módulo de análisis y reportes.</li>
+        <li><strong>MÓDULO IV:</strong> Módulo de automatización de campañas de Marketing.</li>
+        <li><strong>MÓDULO V:</strong> Módulo de autenticación y administración de usuarios.</li>
       </ul>
 
-      <a href="https://docs.google.com/document/d/1UKb-Ci8ycpwFalihkmvksJnptMEJiujs/edit" target="_blank" rel="noreferrer">
-        <h2 className="text-2xl font-bold text-left text-primary uppercase py-4" >TDR</h2>
+      <h2 className="text-2xl font-bold text-left text-primary uppercase my-4" >Cronograma de pagos</h2>
+
+      <table >
+        <thead>
+          <tr>
+            <th>Entregable</th>
+            <th>Fecha de entrega</th>
+            <th>Monto ($)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Módulo de centralización de datos</td>
+            <td>03 - 03 - 2025</td>
+            <td>4,000$</td>
+          </tr>
+          <tr>
+            <td>Módulo de análisis y reportes</td>
+            <td>02 - 06 - 2025</td>
+            <td>4,000$</td>
+          </tr>
+          <tr>
+            <td>Módulo de administración de usuarios</td>
+            <td>01 - 08 - 2025</td>
+            <td>3,000$</td>
+          </tr>
+          <tr>
+            <td>Módulo de notificaciones personalizadas</td>
+            <td>01 - 10 - 2025</td>
+            <td>2,000$</td>
+          </tr>
+          <tr>
+            <td>Módulo de campañas automatizadas</td>
+            <td>01 - 01 - 2026</td>
+            <td>2,000$</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td><strong>TOTAL</strong></td>
+            <td><strong>13 meses</strong></td>
+            <td><strong>15,000$</strong></td>
+          </tr>
+        </tfoot>
+      </table>
+
+
+      <a href="https://docs.google.com/document/d/1wsH3BFHAQQDiN6La489pFkY_yrVICPYnGasXMgSUFq8/edit?usp=drive_link" target="_blank" rel="noreferrer">
+        <h2 className="text-2xl font-bold text-left text-primary uppercase mt-6" >TDR</h2>
       </a>
-      <a href="https://docs.google.com/document/d/1OHBYyvIP9V9_ogXrmCjXaPr-7fgvlFWG/edit" target="_blank" rel="noreferrer">
-        <h2 className="text-2xl font-bold text-left text-primary uppercase py-4" >Carta de Inicio</h2>
+      <a href="https://docs.google.com/document/d/1VszRer11ENWEz4gTenxJxXkbLSIOVbJfutx6Pi3SzlM/edit?usp=drive_link" target="_blank" rel="noreferrer">
+        <h2 className="text-2xl font-bold text-left text-primary uppercase my-2" >Carta de Inicio</h2>
       </a>
     </div>
   );
