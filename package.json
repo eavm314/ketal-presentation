@@ -1,6 +1,5 @@
 {
   "name": "presentacion-2-parcial",
-  "homepage": "https://hugoalejandro2002.github.io/Segundo-Parcial-GPI/",
   "private": true,
   "version": "0.1.0",
   "type": "module",
@@ -11,18 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@emotion/styled": "^11.11.0",
-    "@mui/icons-material": "^5.14.19",
-    "@mui/material": "^5.14.20",
-    "@mui/styled-engine": "^5.14.20",
     "autoprefixer": "^10.4.16",
-    "localforage": "^1.10.0",
-    "match-sorter": "^6.3.1",
     "postcss": "^8.4.32",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.20.1",
-    "sort-by": "^1.2.0",
     "tailwindcss": "^3.3.6"
   },
   "devDependencies": {

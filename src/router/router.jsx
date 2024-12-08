@@ -6,12 +6,12 @@ import FasePlanificacion from "../pages/FasePlanificacion";
 import FaseDisenioDesarrollo from "../pages/FaseDisenioDesarrollo";
 import FaseControlCalidad from "../pages/FaseControlCalidad";
 import FaseCierre from "../pages/FaseCierre";
-import LayoutTigo from "../layout/LayoutTigo";
+import Layout from "../layout/Layout";
 
 const router = createBrowserRouter([
     {
       path: "/",
-      element:  <LayoutTigo />,
+      element:  <Layout />,
       children:[
         {
           path: '/fase-inicio',
