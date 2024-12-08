@@ -36,6 +36,7 @@ const tools = [
       { name: 'Postman', src: 'https://cdn.icon-icons.com/icons2/3053/PNG/96/postman_macos_bigsur_icon_189815.png' },
       { name: 'Selenium', src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Selenium_Logo.png/1200px-Selenium_Logo.png' },
       { name: 'JUnit', src: 'https://junit.org/junit5/assets/img/junit5-logo.png' },
+      { name: 'JMeter', src: 'https://jmeter.apache.org/images/jmeter_square.svg' },
     ]
   },
 ]
@@ -133,120 +134,28 @@ function FasePlanificacion() {
       }
       <br />
 
-      <a href="https://docs.google.com/document/d/1KGTHxPwsybFohuLlVXKgVeSX7r8Akobdpf8Fc6xkzxc/edit" target="_blank" rel="noreferrer">
+      <a href="https://docs.google.com/document/d/14IfqHkI3DG0ZFzB7PJGzghdMyqs-6y79/edit" target="_blank" rel="noreferrer">
         <h1 className='text-2xl font-bold' >Gestión de Riesgos</h1>
       </a>
 
-      <ul className="list-disc pl-6 text-xl font-light pb-4" >
-        <li>Identificación de Riesgos: Riesgos técnicos, de recursos y de tiempo evaluados en impacto y
-          probabilidad.
+      <ul className="list-disc pl-6 text-xl font-light my-4" >
+        <li>Cambios en los Requisitos del Cliente.
         </li>
-        <li>Análisis y Evaluación: Uso de una escala del 1 al 5 para evaluar probabilidad e impacto de cada
-          riesgo.
+        <li>Retrasos en la Disponibilidad de Datos y Requisitos por parte de Ketal.
         </li>
-        <li>Estrategias de Mitigación: Desarrollo de planes de acción para cada riesgo identificado.</li>
-        <li>Plan de Contingencia: Medidas para enfrentar los riesgos, como tener equipos de desarrollo de
-          respaldo.
+        <li>Problemas Técnicos en el Hosting y Servidores Backend.</li>
+        <li>Vulnerabilidades en la Seguridad del Sistema.
         </li>
-        <li>Monitoreo y Comunicación: Revisión periódica de los riesgos y comunicación constante con el equipo y
-          los
-          stakeholders.
+        <li>Desalineación en la Comunicación y Expectativas.
         </li>
-
-        <li>
-          Riesgos Identificados y Estrategias de Mitigación: Lista de todos los riesgos identificados, junto a
-          las estrategias necesarias para su mitigación.
+        <li>Desafíos en la Adopción del Sistema por parte del Personal de Ketal.
         </li>
       </ul>
       <br />
 
-      <a href="https://docs.google.com/document/d/1KGTHxPwsybFohuLlVXKgVeSX7r8Akobdpf8Fc6xkzxc/edit" target="_blank" rel="noreferrer">
-        <h1 className='text-2xl font-bold' >Análisis del Tamaño</h1>
-      </a>
-
-      <p className="text-xl font-light text-left py-4" >
-
-        En el análisis del tamaño del Sistema CRM de TIGO, se empleó la herramienta COCOMO,
-        un modelo de estimación de software que predice el esfuerzo de un producto basándose en parámetros como
-        tamaño, costo, tiempo y calidad. El modelo COCOMO clasifica proyectos en tres tipos: Orgánico,
-        semi-separado y embebido, cada uno representando la complejidad del proyecto, el tamaño del equipo y el
-        entendimiento del problema. Dado que el Sistema CRM de TIGO es considerado un proyecto de tamaño mediano,
-        se optó por el tipo de proyecto semi-separado y el modelo intermedio. Este último implica calcular la cantidad
-        de líneas de código en miles y considerar los Cost Drivers, que miden la experiencia, capacidad y fiabilidad del proyecto
-        y del equipo de trabajo. Para calcular el esfuerzo necesario para completar el proyecto, se aplican fórmulas
-        específicas definidas por el modelo intermedio para proyectos semi-separados.
-
-
-
-      </p>
-
-      <p className="text-xl font-light text-left py-4" >
-        Para un total de 16 meses, se va a necesitar un total de 13 personas para poder terminar el proyecto del CRM de TIGO.
-      </p>
-
-      <a href="https://docs.google.com/document/d/1KGTHxPwsybFohuLlVXKgVeSX7r8Akobdpf8Fc6xkzxc/edit" target="_blank" rel="noreferrer">
+      <a href="" target="_blank" rel="noreferrer">
         <h1 className='text-2xl font-bold' >Análisis del Costo</h1>
       </a>
-
-      <p className="text-xl font-light text-left py-4" >
-        Para poder estimar el costo del proyecto, se debe tomar en cuenta tres variables: complejidad, especialización y tiempo.
-
-        Para empezar, tomando en cuenta los salarios base para los desarrolladores por mes, basado en categoría:
-
-      </p>
-
-      <ul className="list-disc pl-6 text-xl font-light pb-4" >
-        <li>Junior: 3500 - 5000 Bs.
-        </li>
-        <li> Normal: 5000 - 7000 Bs.
-        </li>
-        <li>Senior: 7000 - 12000 Bs.</li>
-      </ul>
-
-      <p className="text-xl font-light text-left py-4" >
-        Esto brinda el análisis de complejidad, y para este caso, debido a la experiencia del equipo de desarrollo, se tomará 4000 Bs. como salario por mes para los desarrolladores (total de 5 desarrolladores).
-
-        Por otro lado, las especializaciones, son las siguientes:
-      </p>
-
-      <ul className="list-disc pl-6 text-xl font-light pb-4" >
-        <li>Chatbot: 2000 Bs.
-        </li>
-        <li> UI/UX: 1000 Bs.
-        </li>
-        <li>FullStack: 2000 Bs.</li>
-      </ul>
-
-      <p className="list-disc pl-6 text-xl font-light pb-4" >
-
-        Debido a que un desarrollador se ocupará del Chatbot, otro del UI/UX, y los tres restantes del desarrollo FullStack.
-
-        Por lo tanto:
-
-      </p>
-
-      <ul className="list-disc pl-6 text-xl font-light pb-4" >
-        <li> 4000 Bs. x 5
-        </li>
-        <li> 20000 Bs. + 2000 Bs. + 1000 Bs. + 2000 Bs. + 2000 Bs. + 2000 Bs.
-        </li>
-      </ul>
-
-      <p className="list-disc pl-6 text-xl font-light pb-4" >En total: 29000 Bs. al mes, para el desarrollo del proyecto.</p>
-
-
-
-
-
-
-
-
-
-
-
-      <br />
-
-
 
     </div>
   );
