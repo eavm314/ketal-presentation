@@ -1,88 +1,83 @@
 function FaseControlCalidad() {
   return (
     <div className="container mx-auto px-10 py-8 rounded-3xl bg-slate-50" style={{ backgroundColor: 'rgba(217, 217, 217, 0.74)' }}>
-      <h1 className='text-2xl font-bold' >Fase de Control de Calidad </h1>
-      <p className='text-justify mt-2' >
-        El equipo asignado al proyecto CRM de Tigo se centrará en el desarrollo y la implementación de un sistema CRM integral, junto con una plataforma web interactiva. Este equipo estará compuesto por desarrolladores especializados en React.js para el frontend, y Express.js para el backend, utilizando un conjunto de herramientas modernas y eficientes para el desarrollo web.
-        <br />
-        <br />
-        Para el diseño de interfaces de usuario (UI/UX), el equipo utilizará herramientas como Adobe XD y Figma, lo que permitirá crear diseños intuitivos y atractivos que mejoren la experiencia del usuario. Además, se prestará especial atención a la actualización y verificación del hardware necesario, incluyendo equipos de alto rendimiento que respalden el desarrollo web eficiente.
-        <br />
-        <br />
-        En cuanto a la conectividad y el despliegue, el proyecto hará uso de los servicios de Amazon Web Services (AWS) para alojar el backend, el frontend y la base de datos. Esto asegurará una infraestructura robusta y escalable, capaz de manejar las demandas de tráfico y almacenamiento del sistema CRM. El uso de AWS también facilitará la implementación de medidas de seguridad avanzadas y la gestión eficiente de recursos.
-        <br />
-        <br />
-        La planificación del proyecto CRM de Tigo incluirá reuniones clave para definir el alcance del sistema, la creación de documentos iniciales y una detallada definición de los requisitos técnicos y funcionales. Se diseñará una arquitectura de la información y una estructura de navegación que consideren aspectos clave como la responsividad y la accesibilidad, asegurando que el sistema sea fácil de usar y accesible para todos los usuarios.
-        <br />
-        <br />
-        La gestión de riesgos jugará un papel crucial en el proyecto, adoptando un enfoque proactivo para identificar y mitigar posibles problemas. Se establecerán estrategias de mitigación y un plan de contingencia robusto para abordar cualquier desafío que pueda surgir durante el desarrollo y la implementación del CRM. Este enfoque integral no solo asegura el éxito del desarrollo del sistema CRM, sino que también garantiza su calidad y efectividad a largo plazo.
+      <h1 className='text-2xl font-bold mb-4' >Fase de Control de Calidad </h1>
+
+      <h3 className="text-xl font-semibold mt-6">1. Pruebas Funcionales</h3>
+      <p className="text-xl font-light text-left my-2">
+        Verificación de que todas las funcionalidades del sistema funcionan según lo especificado en los requisitos.
       </p>
-      <br />
+      <p className="text-xl font-light text-left my-2">Se realizarán pruebas de integración para asegurarse de que todos los módulos (Centralización de Datos, Análisis y Reportes, Administración de Usuarios, Notificaciones Personalizadas, y Campañas Automatizadas) interactúen de manera efectiva.</p>
+      <ul className="list-disc pl-6 text-xl font-light my-2">
+        <li><strong>ISO/IEC 9126 (Calidad de Software)</strong> – Esta norma establece características de calidad como la funcionalidad, fiabilidad y eficiencia del software.</li>
+      </ul>
+
+      <h3 className="text-xl font-semibold mt-6">2. Pruebas de Carga y Estrés</h3>
+      <p className="text-xl font-light text-left my-2">
+        Evaluación del comportamiento del sistema bajo condiciones de alta carga y uso concurrente por parte de los 200 empleados.
+      </p>
+      <p className="text-xl font-light text-left my-2">Se simularán múltiples usuarios simultáneos utilizando herramientas como Apache JMeter para comprobar que el sistema pueda manejar la carga esperada.</p>
+      <ul className="list-disc pl-6 text-xl font-light my-2">
+        <li><strong>ISO/IEC 25010 (Calidad del Producto de Software)</strong> – Evalúa la capacidad del sistema para manejar el rendimiento bajo estrés y carga, garantizando que se mantenga estable.</li>
+      </ul>
+
+      <h3 className="text-xl font-semibold mt-6">3. Pruebas de Seguridad</h3>
+      <p className="text-xl font-light text-left my-2">
+        Comprobación de las vulnerabilidades de seguridad para proteger los datos y las comunicaciones.
+      </p>
+      <p className="text-xl font-light text-left my-2">Se realizarán pruebas de penetración utilizando herramientas como OWASP ZAP y auditorías de seguridad regulares para evaluar la efectividad de las medidas de seguridad implementadas (cifrado, autenticación, control de acceso).</p>
+      <ul className="list-disc pl-6 text-xl font-light my-2">
+        <li><strong>ISO/IEC 27001 (Seguridad de la Información)</strong> – Esta norma establece los controles y las mejores prácticas para gestionar la seguridad de la información en el sistema.</li>
+      </ul>
+
+      <h3 className="text-xl font-semibold mt-6">4. Pruebas de Integración</h3>
+      <p className="text-xl font-light text-left my-2">
+        Verificación de que todos los sistemas internos de la empresa (bases de datos, APIs, etc.) se integren correctamente con el nuevo sistema.
+      </p>
+      <p className="text-xl font-light text-left my-2">Se realizarán pruebas de integración utilizando entornos de prueba y simulaciones para verificar la correcta comunicación entre el sistema CRM y los sistemas externos como Meta Business API y PostgreSQL.</p>
+      <ul className="list-disc pl-6 text-xl font-light my-2">
+        <li><strong>ISO/IEC 20000 (Gestión de Servicios TI)</strong> – Asegura que los servicios y sistemas sean eficientes y se integren adecuadamente, garantizando la alineación con los procesos de negocio.</li>
+      </ul>
+
+      <h3 className="text-xl font-semibold mt-6">5. Pruebas de Usabilidad</h3>
+      <p className="text-xl font-light text-left my-2">
+        Asegurar que la interfaz de usuario sea intuitiva y fácil de usar para los empleados de Ketal.
+      </p>
+      <p className="text-xl font-light text-left my-2">Se realizarán pruebas de usabilidad con grupos de empleados para obtener retroalimentación sobre la experiencia del usuario y realizar ajustes según sea necesario.</p>
+      <ul className="list-disc pl-6 text-xl font-light my-2">
+        <li><strong>ISO 9241 (Ergonomía de la Interacción Hombre-Computadora)</strong> – Esta norma aborda los aspectos de usabilidad y la interacción eficiente entre el usuario y el sistema.</li>
+      </ul>
+
+      <h3 className="text-xl font-semibold mt-6">6. Pruebas de Recuperación ante Desastres</h3>
+      <p className="text-xl font-light text-left my-2">
+        Comprobación de la capacidad del sistema para recuperarse rápidamente en caso de fallos o desastres.
+      </p>
+      <p className="text-xl font-light text-left my-2">Se realizará una simulación de recuperación ante desastres utilizando un entorno de desarrollo local y un plan de recuperación basado en ISO/IEC 22301 para verificar que los procedimientos de respaldo y restauración funcionen de manera efectiva.</p>
+      <ul className="list-disc pl-6 text-xl font-light my-2">
+        <li><strong>ISO/IEC 22301 (Gestión de la Continuidad del Negocio)</strong> – Asegura que el sistema tenga un plan sólido de recuperación ante desastres para mantener la continuidad operativa.</li>
+      </ul>
+
       <br />
 
       <h1 className='text-2xl font-bold' >Fase de Implementación</h1>
       <br />
-      <h3 className='text-xl font-bold' >Arquitectura del sistema web:</h3>
-      <p className='text-justify mt-2' >
-        El hosting del sistema web, estará basado en el proveedor de servicios cloud Amazon Web Services, el cual, es el proveedor de servicios cloud líder en el mercado actualmente, tomando como referencia al cuadrante mágico de Gartner, que compara los proveedores de servicios cloud líderes en el mercado.
-        <br />
-        <br />
-        <div className='flex justify-center'>
-          <img src={gartner_cloud} alt="Gartner Cloud" className='w-1/2' />
-        </div>
-        <br />
-        Como bien fue dicho anteriormente, el sistema web de TIGO, estará compuesto por una arquitectura de tres capas, es decir, Frontend, Backend y Base de Datos; con las tecnologías de React.JS, Express.JS y MySQL respectivamente, por lo tanto, se deben seleccionar servicios de AWS, los cuales, se adapten a las necesidades de cada porción de la arquitectura. Por lo tanto, se seleccionaron los siguientes servicios:
-        <br />
-        <br />
-        <ul className="list-disc">
-          <li className='ml-8'>
-            Para el despliegue del frontend: Amazon Web Services Amplify: Es un marco de trabajo de desarrollo, que las organizaciones pueden utilizar para desarrollar y desplegar aplicaciones web de manera fácil e integrada; utilizando workflows de Git para hostear aplicaciones frontend con despliegue continuo. Tiene soporte para los marcos de trabajos de single web page applications, como ser: React, Angular, Vue, Ionic, Ember.
-          </li>
-          <br />
-          <li className='ml-8'>
-            Para el despliegue del backend: Amazon Web Services Elastic Beanstalk: Es un servicio, que abstrae la creación de servicios necesarios para el hosting de servicios API REST, como ser: Amazon Web Services EC2 y Amazon Web Services S3; permitiendo ejecutar dichos servicios con solo cargar el código de la aplicación; para que luego se administre automáticamente los detalles como el aprovisionamiento de recursos, el balanceador de carga, el escalado automático y el monitoreo; siendo ideal para aplicaciones web PHP, Java, Python, Ruby, Node.JS, .NET, Go o Docker.
-          </li>
-          <br />
-          <li className='ml-8'>
-            Para el despliegue de la base de datos: Amazon Web Services Relational Database Service: Es una colección de servicios administrados que facilita las tareas de operación de bases de datos relacionales; con soporte para motores populares como ser: Amazon Aurora, PostgreSQL, MySQL, MariaDB y Oracle.
-          </li>
-        </ul>
-        <br />
-        Ahora, para poder desplegar el backend en el servicio de Amazon Web Services Elastic Beanstalk, se debe seleccionar el servidor de EC2 que debe poder soportar todo el flujo de usuarios que tiene normalmente el sistema de web de TIGO. El hosting del sitio web de Tigo, deberá ser capaz de soportar una media de 22040 usuarios al día, 661215 usuarios al mes,  y 7934580 usuarios al año, necesitando un total de 5000 Mbps de transacción.
-        <br />
-        <br />
-        La instancia de AWS EC2 que cumple estas características, es la instancia: c4.8xlarge, la cual, tiene las siguientes características:
-        <br />
-        <br />
-        <ul className="list-disc">
-          <li className='ml-8'>
-            36 CPU&apos;s virtuales
-          </li>
-          <br />
-          <li className='ml-8'>
-            60 GB de RAM
-          </li>
-          <br />
-          Por lo tanto, los costos de dicho servicio serán de 1894 dólares al mes.
-        </ul>
-        <br />
-        La instancia de AWS EC2 para la base de datos, que cumple estas características, es la instancia: db.m5.xlarge, la cual, tiene las siguientes características:
-        <br />
-        <br />
-        <ul className="list-disc">
-          <li className='ml-8'>
-            4 CPU&apos;s virtuales
-          </li>
-          <br />
-          <li className='ml-8'>
-            16 GB RAM
-          </li>
-          <br />
-          Por lo tanto, los costos de dicho servicio serán de 321 dólares al mes.
-        </ul>
-        <br />
-        El dominio del servidor, al tratarse de una agencia telefónica que opera a nivel nacional (solamente en Bolivia) en los nueve departamentos, tendrá la extensión .com.bo. Asociados a dicho dominio, se necesitará un mínimo de 20 correos electrónicos
-      </p>
+      <ul className="list-disc pl-10">
+        <li className="text-xl font-light mb-2">
+          El proceso de despliegue se llevará a cabo en los servidores internos de la empresa para garantizar un rendimiento adecuado para 200 usuarios simultáneos.
+        </li>
+        <li className="text-xl font-light my-2">
+          El backend, desarrollado en Spring Boot, se empaquetará en un archivo JAR y se desplegará en el servidor. Se configurarán las conexiones a la base de datos PostgreSQL y otros servicios internos mediante variables de entorno. Además, Spring Security se configurará para gestionar la autenticación y autorización de los usuarios de acuerdo con las políticas de seguridad de la empresa.
+        </li>
+        <li className="text-xl font-light my-2">
+          El frontend se desplegará utilizando React.js y se servirá a través de Nginx para manejar los archivos estáticos generados. Se configurará un proxy inverso para redirigir las solicitudes del frontend al backend de manera eficiente.
+        </li>
+        <li className="text-xl font-light my-2">
+          El sistema se conectará a otras bases de datos internas de la empresa mediante Spring Data JPA y establecerá comunicaciones con otros sistemas a través de APIs RESTful, según la infraestructura existente. Además, se integrará la Meta Business API para gestionar campañas de redes sociales y automatizar procesos, facilitando la gestión de métricas en tiempo real.
+        </li>
+        <li className="text-xl font-light my-2">
+          Se realizarán pruebas de integración para verificar que todos los módulos del sistema funcionen correctamente y que las conexiones con bases de datos y sistemas internos sean seguras y eficientes.
+        </li>
+      </ul>
     </div>
   );
 }
