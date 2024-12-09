@@ -9,7 +9,7 @@ function FaseControlCalidad() {
       <p className="text-xl font-light text-left my-2">
         Verificación de que todas las funcionalidades del sistema funcionan según lo especificado en los requisitos.
       </p>
-      <p className="text-xl font-light text-left my-2">Se realizarán pruebas de integración para asegurarse de que todos los módulos (Centralización de Datos, Análisis y Reportes, Administración de Usuarios, Notificaciones Personalizadas, y Campañas Automatizadas) interactúen de manera efectiva.</p>
+      <p className="text-xl font-light text-left my-2">Se realizarán pruebas de integración para asegurarse de que todos los módulos (Centralización de Datos, Análisis y Reportes, Administración de Usuarios, Comunicación Personalizada, y Campañas Automatizadas) interactúen de manera efectiva.</p>
       <ul className="list-disc pl-6 text-xl font-light my-2">
         <li><strong>ISO/IEC 9126 (Calidad de Software)</strong> – Esta norma establece características de calidad como la funcionalidad, fiabilidad y eficiencia del software.</li>
       </ul>

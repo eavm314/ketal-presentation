@@ -87,7 +87,7 @@ function FaseInicio() {
             <td>3,000$</td>
           </tr>
           <tr>
-            <td>Módulo de notificaciones personalizadas</td>
+            <td>Módulo de comunicación personalizada</td>
             <td>01 - 10 - 2025</td>
             <td>2,000$</td>
           </tr>

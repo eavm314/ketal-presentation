@@ -89,7 +89,7 @@ function FaseDisenioDesarrollo() {
           <tr>
             <td className="border border-gray-800 px-4 py-2">RF5</td>
             <td className="border border-gray-800 px-4 py-2">
-              Notificaciones personalizadas            </td>
+              Comunicación personalizada            </td>
             <td className="border border-gray-800 px-4 py-2">
               Enviar mensajes personalizados por correo o SMS según los intereses y el comportamiento
               del cliente.

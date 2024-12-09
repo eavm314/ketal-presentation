@@ -92,7 +92,7 @@ function FasePlanificacion() {
         <li>Implementación del control de acceso mediante credenciales (2 semanas)</li>
       </ul>
 
-      <h3 className="text-xl font-semibold">5. Módulo de Notificaciones Personalizadas (2 meses)</h3>
+      <h3 className="text-xl font-semibold">5. Módulo de Comunicación Personalizada (2 meses)</h3>
       <ul className="list-disc pl-6 text-xl font-light my-2 list-inside">
         <li>Diseño de interfaz de creación de plantillas (4 semanas)</li>
         <li>Configuración del sistema de notificaciones (4 semanas)</li>

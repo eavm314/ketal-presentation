@@ -68,9 +68,10 @@ function FaseCierre() {
               </p>
               <p><b>Productos Entregados:</b></p>
               <ul className="list-disc pl-6">
-                  <li>Módulo de Registro de Datos de Clientes.</li>
-                  <li>Módulo de Comunicación Personalizada.</li>
+                  <li>Módulo de Centralización de Datos.</li>
                   <li>Módulo de Análisis y Reportes.</li>
+                  <li>Módulo de Administración de Usuarios.</li>
+                  <li>Módulo de Comunicación Personalizada.</li>
                   <li>Módulo de Automatización de Campañas.</li>
                   <li>Manual de Usuario y Manual Técnico.</li>
               </ul>
