@@ -1,4 +1,5 @@
 import gantt from "../assets/gantt.png"
+import cocomo from "../assets/COCOMO.png"
 
 const tools = [
   {
@@ -293,8 +294,14 @@ function FasePlanificacion() {
       </ul>
 
       <a href="" target="_blank" rel="noreferrer">
-        <h1 className='text-2xl font-bold' >Análisis del Costo</h1>
-      </a>
+  <h1 className="text-2xl font-bold">Análisis del Costo</h1>
+  <img
+    src={cocomo}
+    alt="cocomo"
+    className="w-full h-auto mb-4"
+  />
+</a>
+
     </div>
   );
 }
