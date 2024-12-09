@@ -1,3 +1,5 @@
+import despliegue from "../assets/despliegue.png";
+
 function FaseControlCalidad() {
   return (
     <div className="container mx-auto px-10 py-8 rounded-3xl bg-slate-50" style={{ backgroundColor: 'rgba(217, 217, 217, 0.74)' }}>
@@ -61,6 +63,7 @@ function FaseControlCalidad() {
 
       <h1 className='text-2xl font-bold' >Fase de Implementación</h1>
       <br />
+      <img src={despliegue} alt="Despliegue" className="mx-auto mb-6" />
       <ul className="list-disc pl-10">
         <li className="text-xl font-light mb-2">
           El proceso de despliegue se llevará a cabo en los servidores internos de la empresa para garantizar un rendimiento adecuado para 200 usuarios simultáneos.
