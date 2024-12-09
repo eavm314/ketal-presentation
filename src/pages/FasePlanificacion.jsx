@@ -1,4 +1,5 @@
 import gantt from "../assets/gantt.png"
+import cocomo from "../assets/COCOMO.png"
 
 const tools = [
   {
@@ -137,25 +138,169 @@ function FasePlanificacion() {
       <a href="https://docs.google.com/document/d/14IfqHkI3DG0ZFzB7PJGzghdMyqs-6y79/edit" target="_blank" rel="noreferrer">
         <h1 className='text-2xl font-bold' >Gestión de Riesgos</h1>
       </a>
+      <h3 className='text-xl font-bold'>Evaluación de Riesgos Clave</h3>
+      <ul className="list-disc pl-6 text-xl font-light pb-4" >
+        <li><strong>Cambios en los Requisitos del Cliente:</strong>
+          <ul className="list-disc pl-6 text-xl font-light pb-4" >
+            <li><strong>Probabilidad:</strong> Moderada</li>
+            <li><strong>Impacto:</strong> Alto</li>
+            <li><strong>Desafío:</strong> Cambios significativos en requisitos pueden alterar
+              plazos y alcance</li>
+          </ul>
+        </li>
 
-      <ul className="list-disc pl-6 text-xl font-light my-4" >
-        <li>Cambios en los Requisitos del Cliente.
+        <li><strong>Retrasos en la Disponibilidad de Datos:</strong>
+          <ul className="list-disc pl-6 text-xl font-light pb-4" >
+            <li><strong>Probabilidad:</strong> Alta </li>
+            <li><strong>Impacto:</strong> Moderado</li>
+            <li><strong>Desafío:</strong> Entrega tardía de información clave puede afectar cronogramas</li>
+          </ul>
         </li>
-        <li>Retrasos en la Disponibilidad de Datos y Requisitos por parte de Ketal.
+
+        <li><strong>Problemas Técnicos en Hosting y Servidores:</strong>
+          <ul className="list-disc pl-6 text-xl font-light pb-4" >
+            <li><strong>Probabilidad:</strong> Moderada </li>
+            <li><strong>Impacto:</strong> Alto</li>
+            <li><strong>Desafío:</strong> Fallos en infraestructura tecnológica pueden comprometer el rendimiento</li>
+          </ul>
         </li>
-        <li>Problemas Técnicos en el Hosting y Servidores Backend.</li>
-        <li>Vulnerabilidades en la Seguridad del Sistema.
+
+        <li><strong>Vulnerabilidades en la Seguridad:</strong>
+          <ul className="list-disc pl-6 text-xl font-light pb-4" >
+            <li><strong>Probabilidad:</strong> Moderada  </li>
+            <li><strong>Impacto:</strong> Muy alto</li>
+            <li><strong>Desafío:</strong> Riesgo de ataques cibernéticos que comprometan datos sensibles</li>
+          </ul>
         </li>
-        <li>Desalineación en la Comunicación y Expectativas.
+
+        <li><strong>Desalineación en Comunicación y Expectativas:</strong>
+          <ul className="list-disc pl-6 text-xl font-light pb-4" >
+            <li><strong>Probabilidad:</strong> Moderada </li>
+            <li><strong>Impacto:</strong> Moderado</li>
+            <li><strong>Desafío:</strong>  Malentendidos podrían afectar alcance y prioridades</li>
+          </ul>
         </li>
-        <li>Desafíos en la Adopción del Sistema por parte del Personal de Ketal.
+
+        <li><strong>Desafíos en la Adopción del Sistema:</strong>
+          <ul className="list-disc pl-6 text-xl font-light pb-4" >
+            <li><strong>Probabilidad:</strong> Alta  </li>
+            <li><strong>Impacto:</strong> Moderado</li>
+            <li><strong>Desafío:</strong> Resistencia al cambio por parte del personal podría retrasar implementación.</li>
+          </ul>
         </li>
+
       </ul>
-      <br />
+
+      <h3 className='text-xl font-bold'>Estrategias de Mitigación</h3>
+      <ul className="list-disc pl-6 text-xl font-light pb-4" >
+        <li><strong>Cambios en los Requisitos del Cliente:</strong>
+          <ul className="list-disc pl-6 text-xl font-light pb-4" >
+            <li>Reuniones regulares con responsables.</li>
+            <li>Gestión de cambios basada en ISO 31000.</li>
+          </ul>
+        </li>
+
+        <li><strong>Retrasos en la Disponibilidad de Datos:</strong>
+          <ul className="list-disc pl-6 text-xl font-light pb-4" >
+            <li>Cronogramas claros con márgenes.</li>
+            <li>Responsabilidades documentadas en herramientas como Trello.</li>
+          </ul>
+        </li>
+
+        <li><strong>Problemas Técnicos en Hosting y Servidores:</strong>
+          <ul className="list-disc pl-6 text-xl font-light pb-4" >
+            <li>Monitoreo constante según ISO/IEC 20000.</li>
+            <li>Pruebas de carga y configuración de backups.</li>
+          </ul>
+        </li>
+
+        <li><strong>Seguridad:</strong>
+          <ul className="list-disc pl-6 text-xl font-light pb-4" >
+            <li>Diseño bajo ISO/IEC 27001.</li>
+            <li>Auditorías y pruebas de penetración periódicas.</li>
+          </ul>
+        </li>
+
+        <li><strong>Comunicación:</strong>
+          <ul className="list-disc pl-6 text-xl font-light pb-4" >
+            <li>Punto de contacto único y herramientas como JIRA para seguimiento.</li>
+          </ul>
+        </li>
+
+        <li><strong>Adopción del Sistema:</strong>
+          <ul className="list-disc pl-6 text-xl font-light pb-4" >
+            <li>Programas de capacitación personalizados.  </li>
+            <li>Canal de soporte técnico interno.</li>
+          </ul>
+        </li>
+
+      </ul>
+
+      <h3 className='text-xl font-bold'>Planes de Contingencia</h3>
+      <ul className="list-disc pl-6 text-xl font-light pb-4" >
+        <li><strong>Cambios en los Requisitos del Cliente:</strong>
+          <ul className="list-disc pl-6 text-xl font-light pb-4" >
+            <li>Cláusulas contractuales para costos y tiempos adicionales.</li>
+          </ul>
+        </li>
+
+        <li><strong>Retrasos en la Disponibilidad de Datos:</strong>
+          <ul className="list-disc pl-6 text-xl font-light pb-4" >
+            <li>Avanzar en módulos independientes de la información faltante.</li>
+          </ul>
+        </li>
+
+        <li><strong>Problemas Técnicos en Hosting y Servidores:</strong>
+          <ul className="list-disc pl-6 text-xl font-light pb-4" >
+            <li>Entorno local de respaldo y planes de recuperación según ISO/IEC 22301.</li>
+          </ul>
+        </li>
+
+        <li><strong>Seguridad:</strong>
+          <ul className="list-disc pl-6 text-xl font-light pb-4" >
+            <li>Plan de respuesta a incidentes y seguros cibernéticos.</li>
+          </ul>
+        </li>
+
+        <li><strong>Comunicación:</strong>
+          <ul className="list-disc pl-6 text-xl font-light pb-4" >
+            <li>Reuniones extraordinarias para priorización de tareas.</li>
+          </ul>
+        </li>
+
+        <li><strong>Adopción del Sistema:</strong>
+          <ul className="list-disc pl-6 text-xl font-light pb-4" >
+            <li>Equipo interno para promover el uso del CRM y soporte inicial.
+            </li>
+          </ul>
+        </li>
+
+      </ul>
+
+      <h3 className='text-xl font-bold'>Normativas Aplicadas</h3>
+      <ul className="list-disc pl-6 text-xl font-light pb-4" >
+        <li><strong>ISO 31000:</strong> Gestión de riesgos.</li>
+
+        <li><strong>ISO/IEC 20000:</strong> Gestión de servicios TI.</li>
+
+        <li><strong>ISO/IEC 27001:</strong>
+          Seguridad de la información.
+        </li>
+
+        <li><strong>ISO/IEC 22301:</strong>
+          Continuidad del negocio.
+        </li>
+
+      </ul>
 
       <a href="" target="_blank" rel="noreferrer">
-        <h1 className='text-2xl font-bold' >Análisis del Costo</h1>
-      </a>
+  <h1 className="text-2xl font-bold">Análisis del Costo</h1>
+  <img
+    src={cocomo}
+    alt="cocomo"
+    className="w-full h-auto mb-4"
+  />
+</a>
 
     </div>
   );
